@@ -2,7 +2,7 @@
   Zenklub Challenge
 </h1>
 
-### Para ver o projeto rodando acesse: 
+### Para ver o projeto rodando acesse: https://challenge-zenklub.web.app/
 
 <img src="src/assets/preview.png" />
 
