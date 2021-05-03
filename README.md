@@ -8,7 +8,7 @@
 
 ## Sobre o projeto
 
-O projeto foi desenvolvido com o objetivo de desenvolver o desafio proposto pela Zenklub.
+O projeto foi criado com o objetivo de desenvolver o desafio proposto pela Zenklub.
 
 O desafio inclui:
 
