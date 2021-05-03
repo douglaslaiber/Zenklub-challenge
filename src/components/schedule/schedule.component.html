@@ -1,0 +1,25 @@
+<div class="container-schedule">
+    <h2 class="title">Agende sua sessão</h2>
+
+    <p>Selecione o dia</p>
+    <zen-date-select
+        [scheduleLength]="scheduleList.length"
+        [scheduleIndex]="scheduleIndex"
+        [amountToShow]="amountToShow"
+        (scheduleIndexChange)="onScheduleIndexChange($event)"
+    >
+        <zen-date-option *ngFor="let schedule of scheduleList | slice:scheduleIndex*amountToShow:(scheduleIndex*amountToShow)+amountToShow;"
+            [value]="schedule"
+            [(ngModel)]="scheduleSelected"
+            (ngModelChange)="timeSelected = null"
+        ></zen-date-option>
+    </zen-date-select>
+
+    <p>Selecione a hora</p>
+    <zen-time-select>
+        <zen-time-option *ngFor="let time of scheduleSelected.times"
+            [value]="time"
+            [(ngModel)]="timeSelected"
+        ></zen-time-option>
+    </zen-time-select>
+</div>

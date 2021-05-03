@@ -1,0 +1,22 @@
+.container-schedule {
+    width: 328px;
+    padding: 40px;
+    border: 1px solid #7655e9;
+    border-radius: 6px;
+    color: #7655e9;
+
+    h2.title {
+        font-size: 24px;
+        font-weight: 400;
+        text-align: left;
+        width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin-top: 0;
+        margin-bottom: 28px;
+    }
+
+    @media (max-width: 960px) {
+        margin-top: 48px;
+    }
+}

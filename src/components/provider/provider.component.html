@@ -1,0 +1,19 @@
+<div class="provider">
+    <div class="provider--avatar">
+        <img [src]=provider.avatarUrl>
+    </div>
+    <div class="provider--details">
+        <h2 class="provider--title">{{ provider.fullName }}</h2>
+        <div class="mb-4 pl-4">
+            <span class="highlight-color">{{ provider.specialty }}</span> | {{ provider.location }}
+        </div>
+        <zen-rating-star [rating]="provider.rating"></zen-rating-star>
+        <div class="mb-4 pl-4">
+            <span class="highlight-text">{{ provider.budget.price | currency: 'BRL' }}</span> / {{ provider.budget.timeInMinutes }} minutos
+        </div>
+    </div>
+</div>
+
+<div class="provider-about">
+    <p [innerHTML]="provider.about"></p>
+</div>

@@ -1,0 +1,19 @@
+:host {
+    ul.rating-stars {
+        margin: 0 0 4px 0;
+        padding: 0;
+        list-style: none;
+        display: inline-block
+    }
+
+    .rating-stars li {
+        display: inline-block;
+        color: #ddd;
+        padding: 8px 4px;
+    }
+
+    .rating-stars li.rating-stars--selected {
+        color: #ffd700;
+    }
+
+}

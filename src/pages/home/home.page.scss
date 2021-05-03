@@ -1,0 +1,26 @@
+
+.page {
+    display: flex;
+    background-color: #fafafa;
+    border-radius: 6px;
+    padding: 32px;
+    box-shadow: 0 2px 2px rgb(0 0 0 / 15%), 1px 1px 3px rgb(0 0 0 / 20%);
+}
+
+.provider-container {
+    flex: 1;
+    margin-right: 32px;
+    padding-top: 32px;
+}
+
+@media (max-width: 960px) {
+    .page {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .provider-container {
+        margin-right: 0;
+        padding-top: 0;
+    }
+}

@@ -1,0 +1,42 @@
+:host {
+    .date-option {
+        width: 52px;
+        height: 72px;
+        border: 2px solid #333333;
+        border-radius: 10px;
+        user-select: none;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        flex-direction: column;
+        padding: 0;
+        color: #3e3e3e;
+
+        &:hover {
+            background-color: #EFEFEF;
+        }
+    }
+
+    .date-option--selected {
+        background-color: #7655e9;
+        color: #FFFFFF;
+        border-color: #7655e9;
+
+        &:hover {
+            background-color: #7655e9;
+        }
+    }
+
+    .date-option--upper {
+        text-transform: uppercase;
+        font-size: 14px;
+    }
+
+    .date-option--big {
+        font-size: 26px;
+        font-weight: 500;
+    }
+}

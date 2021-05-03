@@ -1,0 +1,5 @@
+<div class="date-option" (click)="select()" [ngClass]="(modelValue === value ? 'date-option--selected' : '')">
+    <div class="date-option--upper">{{ value.date | date:'MMM' | slice:0:-1 }}</div>
+    <div class="date-option--upper date-option--big">{{ value.date | date: 'dd'  }}</div>
+    <div class="date-option--upper">{{ value.date | date: 'EEE' | slice:0:-1 }}</div>
+</div>

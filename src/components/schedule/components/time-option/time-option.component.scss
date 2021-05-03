@@ -1,0 +1,36 @@
+.select-time {
+    width: 59px;
+    height: 32px;
+    border: 2px solid #333333;
+    border-radius: 10px;
+    user-select: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    flex-direction: column;
+    padding: 0;
+    color: #3e3e3e;
+    font-size: 20px;
+
+    &:hover {
+        background-color: #EFEFEF;
+    }
+}
+
+.select-time--disabled {
+    opacity: 0.3;
+    pointer-events: none;
+}
+
+.select-time--selected {
+    background-color: #7655e9;
+    color: #FFFFFF;
+    border-color: #7655e9;
+
+    &:hover {
+        background-color: #7655e9;
+    }
+}

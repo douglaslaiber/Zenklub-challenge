@@ -1,0 +1,9 @@
+<button class="btn-previous" [class.btn__disabled]="scheduleIndex === 0" (click)="onClickPrevious()">
+    <i class="fas fa-angle-left"></i>
+</button>
+<div class="wrapper-date">
+    <ng-content></ng-content>
+</div>
+<button class="btn-next" [class.btn__disabled]="(scheduleIndex + 1) * amountToShow >= scheduleLength" (click)="onClickNext()">
+    <i class="fas fa-angle-right"></i>
+</button>

@@ -1,27 +1,58 @@
-# ZenklubChallenge
+<h1 align="center">
+  Zenklub Challenge
+</h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.10.
+### Para ver o projeto rodando acesse: 
 
-## Development server
+<img src="src/assets/preview.png" />
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Sobre o projeto
 
-## Code scaffolding
+O projeto foi desenvolvido com o objetivo de desenvolver o desafio proposto pela Zenklub.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+O desafio inclui:
 
-## Build
+- Mostrar informações sobre o especialista
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+- Apartir de um backend, listar as datas disponíveis para um agendamento com o especialista
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Tecnologias usadas:
 
-## Running end-to-end tests
+- `Angular 11`: Utilizado para a criação do frontend;
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+- `Pipedream`: Utilizado para a criação do mock da api;
 
-## Further help
+## Como executar o projeto
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Instalar dependências do projeto
+Executar os comandos abaixo.
+
+```sh
+cd zenklub-challenge
+npm install
+```
+
+ou 
+
+```sh
+cd zenklub-challenge
+yarn
+```
+
+### Executar o projeto
+Executar os comandos abaixo.
+
+```sh
+npm run start
+```
+ou
+```sh
+yarn start
+```
+
+### Acessar o projeto
+Acesse o projeto através do endereço:
+```sh
+http://localhost:4200
+```

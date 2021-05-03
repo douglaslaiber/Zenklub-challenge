@@ -1,0 +1,6 @@
+<ul class="rating-stars">
+    <li *ngFor="let starIndex of stars" [class.rating-stars--selected]="starIndex <= rating.average">
+        <i class="fa fa-star"></i>
+    </li>
+</ul>
+({{ rating.reviews }} {{ rating.reviews === 1 ? 'avaliação' : 'avaliações' }})

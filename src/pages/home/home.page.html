@@ -1,0 +1,13 @@
+<div class="page">
+
+    <ng-container *ngIf="provider">
+        <div class="provider-container">
+            <zen-provider [provider]="provider"></zen-provider>
+        </div>
+
+        <div class="schedule-container">
+            <zen-schedule [scheduleList]="provider.schedule"></zen-schedule>
+        </div>
+    </ng-container>
+
+</div>

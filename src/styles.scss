@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0;
+  background-color: #efefef;
+}
+
+.highlight-color {
+    text-transform: uppercase;
+    color: #7655e9;
+    font-weight: 500;
+}
+
+.highlight-text {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.mb-4 {
+    margin-bottom: 4px;
+}
+
+.pl-4 {
+    padding-left: 4px;
+}

@@ -1,0 +1,7 @@
+<div class="select-time"
+    [class.select-time--selected]="modelValue === value"
+     [class.select-time--disabled]="!value.available"
+    (click)="select()"
+>
+    {{ value.hour }}
+</div>
